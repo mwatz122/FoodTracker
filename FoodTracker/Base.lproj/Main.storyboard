@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b9Q-xt-Hoz">
-                                <rect key="frame" x="20" y="40" width="374" height="506"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b9Q-xt-Hoz">
+                                <rect key="frame" x="20" y="40" width="374" height="476.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6J0-UF-nsL">
                                         <rect key="frame" x="0.0" y="0.0" width="86.333333333333329" height="20.333333333333336"/>
@@ -55,8 +55,8 @@
                                             <outletCollection property="gestureRecognizers" destination="f9t-lN-CVB" appends="YES" id="raL-lD-1O9"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vdb-Ri-AI8" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="432.33333333333337" width="134" height="74.000000000000057"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vdb-Ri-AI8" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="432.33333333333337" width="252" height="44.000000000000057"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
